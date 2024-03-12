@@ -1,0 +1,46 @@
+.overlay {
+    background: rgba(33, 33, 33, 0.7);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    z-index: 55;
+    display: flex;
+    align-items: center;
+    .auth{
+      width: 350px;
+      /* height: 150px; */
+      background-color: white;
+      margin: 0 auto;
+      padding: 20px;
+      
+      
+      border-radius: 12px;
+      
+  }
+  }
+
+  .auth h3{
+    font-size: 28px;
+    /* margin-top: -20px; */
+  }
+  .auth p{
+    font-size: 20px;
+  }
+  .buttons{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  .buttons button{
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 0.3px solid black;
+  }
+  .btn2{
+    background: rgb(71, 71, 228);
+    color: white;
+    border: none;
+  }

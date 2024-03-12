@@ -1,0 +1,33 @@
+.overlay {
+  background: rgba(33, 33, 33, 0.7);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  z-index: 55;
+  .auth{
+    width: 350px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 30px 0px;
+    margin-top: 30px;border-radius: 12px;
+}
+}
+.auth h1{
+    text-align: center;
+}
+.auth p{
+    text-align: center;
+}
+
+
+.inputs {
+    width: 200px;
+    height: 25px;
+    padding: 0px  8px;
+    border-radius: 8px;
+    border: 0.3px  solid black;
+    
+}
